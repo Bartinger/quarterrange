@@ -22,13 +22,22 @@ module.exports = function (q, year) {
     }
     dateStart.setDate(1);
     dateStart.setMonth((q * 3));
+    dateStart.setUTCHours(0, 0, 0, 0);
 
     dateEnd.setDate(15);
     dateEnd.setMonth(((q + 1) * 3));
     dateEnd.setDate(0);
+    dateEnd.setUTCHours(23, 59, 59, 0);
 
     return {
-        from: dateStart
+        from: dateStart,
         to: dateEnd
     };
+}
+
+function time(date, hours, minutes, seconds, milliseconds) {
+    date.setHours(hours);
+    date.setMinutes(minutes);
+    date.setSeconds(seconds);
+    date.setMilliseconds(milliseconds)
 }
