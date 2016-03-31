@@ -51,9 +51,19 @@ describe('QuarterRange', function() {
 
         var year = new Date().getFullYear();
 
-        var q1 = quarter('0', year);
+        var q1 = quarter('0');
         should(q1.from).eql(new Date(year + '-01-01T00:00:00'));
         should(q1.to).eql(new Date(year + '-03-31T23:59:59'));
+
+    });
+
+    it('should get second quarter with index 5', function() {
+
+        var year = new Date().getFullYear();
+
+        var q2 = quarter(5, year);
+        should(q2.from).eql(new Date(year + '-04-01T00:00:00'));
+        should(q2.to).eql(new Date(year + '-06-30T23:59:59'));
 
     });
 
