@@ -34,10 +34,3 @@ module.exports = function (q, year) {
         to: dateEnd
     };
 }
-
-function time(date, hours, minutes, seconds, milliseconds) {
-    date.setHours(hours);
-    date.setMinutes(minutes);
-    date.setSeconds(seconds);
-    date.setMilliseconds(milliseconds)
-}
