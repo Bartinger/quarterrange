@@ -22,6 +22,12 @@ To:		2016-03-31T23:59:59.000Z
 */
 ```
 
+## Test
+
+```bash
+$ npm test
+```
+
 ## License
 
 Copyright (c) 2016 Dominic Bartl, [MIT License][license]

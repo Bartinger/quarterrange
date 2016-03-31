@@ -1,6 +1,6 @@
 {
   "name": "quarterrange",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get start and end date of quarters",
   "main": "index.js",
   "scripts": {
