@@ -14,12 +14,11 @@ var quarter = require('quarterrange');
 
 var firstQuarter = quarter(0);
 
-console.log(firstQuarter);
+console.log('From:', firstQuarter.from.toISOString());
+console.log('To:', firstQuarter.to.toISOString());
 /*
-{
-	from: Fri Jan 01 2016 01:00:00 GMT+0100 (CET),
-	to: Fri Apr 01 2016 01:59:59 GMT+0200 (CEST)
-}
+From:	2016-01-01T00:00:00.000Z
+To:		2016-03-31T23:59:59.000Z
 */
 ```
 
