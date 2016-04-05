@@ -1,0 +1,23 @@
+{
+  "name": "quarterrange",
+  "description": "Get start and end date of quarters",
+  "main": "index.js",
+  "authors": [
+    "Dominic Bartl"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "quarter",
+    "date",
+    "range"
+  ],
+  "homepage": "https://github.com/Bartinger/quarterrange",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
