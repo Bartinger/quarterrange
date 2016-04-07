@@ -5,6 +5,8 @@ Get start and end date of quarters
 
 ```bash
 $ npm install quarterrange
+# or
+$ bower install quarterrange
 ```
 
 ## Usage
